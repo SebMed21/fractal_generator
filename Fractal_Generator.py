@@ -11,11 +11,11 @@ screen.delay(0)
 
 # turtle settings
 
-tortol = turtle.Turtle()
-tortol.pensize(3)
-tortol.speed(0) 
-tortol.setpos(-WIDTH // 3, -HEIGHT // 2)
-tortol.color('gold')
+pointer = turtle.Turtle()
+pointer.pensize(3)
+pointer.speed(0) 
+pointer.setpos(-WIDTH // 3, -HEIGHT // 2)
+pointer.color('gold')
 
 # l-system settings
 
