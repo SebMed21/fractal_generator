@@ -33,7 +33,7 @@ def apply_rules(axiom):
 
 
 def get_result(gens, axiom):
-    for gen in range(gens):
+    for gens in range(gens):
         axiom = apply_rules(axiom)
     return axiom
 
@@ -46,11 +46,11 @@ turtle.write(f'generation: {gens}', font=("Arial", 60, "normal"))
 axiom = get_result(gens, axiom)
 for chr in axiom:
     if chr == chr_1 or chr == chr_2:
-        tortol.forward(step)
+        pointer.forward(step)
     elif chr == '+':
-        tortol.right(angle)
+        pointer.right(angle)
     elif chr == '-':
-        tortol.left(angle)
+        pointer.left(angle)
 
 
 
