@@ -1,6 +1,6 @@
 import turtle
 
-# screen settings
+# screen setting
 
 WIDTH, HEIGHT = 1920, 1080
 screen = turtle.Screen()
